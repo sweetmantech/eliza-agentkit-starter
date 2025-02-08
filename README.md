@@ -1,6 +1,6 @@
 # Eliza AgentKit Starter 🤖💳
 
-A powerful combination of Eliza AI Agent and AgentKit digital wallet capabilities. This starter project enables you to create AI agents that can interact with blockchain networks and manage digital assets while maintaining Eliza's engaging conversational abilities.
+A powerful combination of Eliza AI Agent and AgentKit digital wallet capabilities. This starter project enables you to create AI agents that can interact with Base, Ethereum, Polygon & Arbitrum networks and manage digital assets while maintaining Eliza's engaging conversational abilities.
 
 ## 🔑 AgentKit Configuration
 
