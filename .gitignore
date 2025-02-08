@@ -9,3 +9,5 @@ dist/
 db.sqlite
 .idea
 .tee-cloud
+instructions.md
+wallet_data.txt
