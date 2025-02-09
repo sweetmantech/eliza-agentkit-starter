@@ -3,7 +3,20 @@
   "builds": [
     {
       "src": "src/index.ts",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "dist/**"
+        ],
+        "excludeFiles": [
+          "node_modules/**",
+          ".git/**",
+          "test/**",
+          "tests/**",
+          "**/*.test.*",
+          "**/*.spec.*"
+        ]
+      }
     }
   ],
   "routes": [

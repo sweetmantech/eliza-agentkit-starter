@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+node_modules
+test
+tests
+*.test.*
+*.spec.*
+README.md
+.gitignore
+.npmrc
+pnpm-lock.yaml
+tsconfig.tsbuildinfo 

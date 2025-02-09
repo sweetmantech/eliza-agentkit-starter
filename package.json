@@ -9,7 +9,7 @@
     "clean": "./scripts/clean.sh",
     "start:service:all": "pm2 start pnpm --name=\"all\" --restart-delay=3000 --max-restarts=10 -- run start:all",
     "stop:service:all": "pm2 stop all",
-    "vercel-build": "tsc",
+    "vercel-build": "tsc && pnpm prune --prod",
     "vercel-start": "node dist/index.js"
   },
   "dependencies": {
@@ -47,6 +47,7 @@
     }
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "pm2": "5.4.3",
     "ts-node": "10.9.2",
     "tsup": "8.3.5",
