@@ -11,3 +11,4 @@ db.sqlite
 .tee-cloud
 instructions.md
 wallet_data.txt
+.DS_Store

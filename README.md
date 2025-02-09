@@ -114,3 +114,19 @@ docker compose -f docker-compose-image.yaml up
 # 🚂 Deploy with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aW47_j)
+
+## 🚀 Deploy to Vercel
+
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Configure environment variables in Vercel project settings
+4. Deploy!
+
+Note: Make sure to select Node.js version 22.x in the Build & Development Settings.
+
+Environment variables required:
+
+- CDP_AGENT_KIT_NETWORK
+- CDP_API_KEY_NAME
+- CDP_API_KEY_PRIVATE_KEY
+- [Other required variables from .env]
