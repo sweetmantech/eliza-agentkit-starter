@@ -1,6 +1,7 @@
 {
   "name": "@elizaos/eliza-starter",
   "version": "0.1.9",
+  "packageManager": "pnpm@9.8.0",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
